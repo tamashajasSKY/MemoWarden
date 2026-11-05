@@ -1,0 +1,14 @@
+{
+  "version": "1.1.0",
+  "package": "hu.emlekor.naplo",
+  "versionCode": 2,
+  "sha256": "e71de1b76217dd9937ed3db40ac6f3a9ad79e55e92840f6babb354dd13e40a99",
+  "certificateSHA256": "f9617df37dd3fdfacb9e56693723f6135d765a64ebcdee6f9d1813cf77083523",
+  "sameCertificateAsPrevious": true,
+  "zipIntegrity": true,
+  "assetCount": 5,
+  "allAssetsMatch": true,
+  "androidPermissions": [],
+  "automatedChecks": 112,
+  "physicalPhoneTest": false
+}

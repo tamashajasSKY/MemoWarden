@@ -1,0 +1,15 @@
+{
+  "passed": 8,
+  "checks": [
+    "Production interface does not expose testing API",
+    "Bundled file URL renders home",
+    "Offline guided writing saves an entry",
+    "File URL save survives reload",
+    "Encrypted backup downloads from a file URL",
+    "File URL backup supports WebCrypto",
+    "No network is needed",
+    "No production JavaScript errors"
+  ],
+  "errors": [],
+  "network": []
+}

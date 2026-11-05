@@ -1,0 +1,27 @@
+# Never commit private keys, journals, backups, passwords or generated QA.
+signing/
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.emlekor
+*.env
+.env
+.env.*
+local.properties
+build/
+**/build/
+dist/
+deliverables/
+qa/
+node_modules/
+tools/
+__pycache__/
+*.pyc
+*.pending
+*.apk
+*.aab
+.idea/
+*.iml
+.DS_Store

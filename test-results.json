@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-05T13:54:23.624Z",
+  "passed": 63,
+  "results": [
+    {
+      "name": "Fresh install contains no fabricated memories",
+      "result": "PASS"
+    },
+    {
+      "name": "Daily question can be changed",
+      "result": "PASS"
+    },
+    {
+      "name": "Three writing styles are available",
+      "result": "PASS"
+    },
+    {
+      "name": "Writing style and larger font survive reload",
+      "result": "PASS"
+    },
+    {
+      "name": "An empty title blocks the first step",
+      "result": "PASS"
+    },
+    {
+      "name": "A memory needs at least a keyword or real detail",
+      "result": "PASS"
+    },
+    {
+      "name": "Keywords are deduplicated and stored",
+      "result": "PASS"
+    },
+    {
+      "name": "Automatic draft survives app reload with its current step",
+      "result": "PASS"
+    },
+    {
+      "name": "Assisted text uses only supplied details and metadata",
+      "result": "PASS"
+    },
+    {
+      "name": "Final save preserves edited story, dates, favorite and original details",
+      "result": "PASS"
+    },
+    {
+      "name": "Editing updates one memory without inflating rewards",
+      "result": "PASS"
+    },
+    {
+      "name": "Search ignores case and Hungarian accents",
+      "result": "PASS"
+    },
+    {
+      "name": "No-results state is visible",
+      "result": "PASS"
+    },
+    {
+      "name": "Favorite filter returns the saved favorite",
+      "result": "PASS"
+    },
+    {
+      "name": "Unfavoriting removes an item from favorite results",
+      "result": "PASS"
+    },
+    {
+      "name": "Older memories appear in the rediscovery card",
+      "result": "PASS"
+    },
+    {
+      "name": "Keyword-only entry is supported without inventing an event",
+      "result": "PASS"
+    },
+    {
+      "name": "Garden shows accumulated memories without a punitive streak",
+      "result": "PASS"
+    },
+    {
+      "name": "Cancelled draft discard preserves draft",
+      "result": "PASS"
+    },
+    {
+      "name": "Discard draft preserves already-saved memories",
+      "result": "PASS"
+    },
+    {
+      "name": "Life-history writing mode offers a matching prompt",
+      "result": "PASS"
+    },
+    {
+      "name": "Backup is encrypted, versioned and does not contain memory text",
+      "result": "PASS"
+    },
+    {
+      "name": "Browser encrypted backup roundtrip preserves exact UTF-8 data",
+      "result": "PASS"
+    },
+    {
+      "name": "Wrong backup password is rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "Modified encrypted backup is rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "Java backup reader decrypts the browser backup byte-for-byte",
+      "result": "PASS"
+    },
+    {
+      "name": "Native Java backup writer succeeds",
+      "result": "PASS"
+    },
+    {
+      "name": "Browser decrypts the native Java backup",
+      "result": "PASS"
+    },
+    {
+      "name": "Native Java rejects wrong password",
+      "result": "PASS"
+    },
+    {
+      "name": "Large backup avoids base64 stack overflow and preserves Unicode",
+      "result": "PASS"
+    },
+    {
+      "name": "Import confirmation can be cancelled without changing memories",
+      "result": "PASS"
+    },
+    {
+      "name": "Reimporting identical backup does not duplicate memories",
+      "result": "PASS"
+    },
+    {
+      "name": "Conflicting versions are both preserved with separate identities",
+      "result": "PASS"
+    },
+    {
+      "name": "Repeated import of a conflicting version does not create repeated copies",
+      "result": "PASS"
+    },
+    {
+      "name": "Malformed, duplicate-ID and prototype-bearing backups are rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "Full clear is protected by a typed confirmation",
+      "result": "PASS"
+    },
+    {
+      "name": "Cancelled full clear preserves all memories",
+      "result": "PASS"
+    },
+    {
+      "name": "Confirmed full clear deletes entries and drafts",
+      "result": "PASS"
+    },
+    {
+      "name": "Restored memories survive a second app reload",
+      "result": "PASS"
+    },
+    {
+      "name": "Export rejects short passwords",
+      "result": "PASS"
+    },
+    {
+      "name": "Actual export button produces an encrypted memory file",
+      "result": "PASS"
+    },
+    {
+      "name": "Actual file picker import decrypts and deduplicates exported memories",
+      "result": "PASS"
+    },
+    {
+      "name": "Imported user text is rendered literally without executable HTML",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on home at 320",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on memories at 320",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on garden at 320",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on settings at 320",
+      "result": "PASS"
+    },
+    {
+      "name": "Large-font settings accessible at 320",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on home at 412",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on memories at 412",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on garden at 412",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on settings at 412",
+      "result": "PASS"
+    },
+    {
+      "name": "Large-font settings accessible at 412",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on home at 800",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on memories at 800",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on garden at 800",
+      "result": "PASS"
+    },
+    {
+      "name": "No horizontal overflow on settings at 800",
+      "result": "PASS"
+    },
+    {
+      "name": "Large-font settings accessible at 800",
+      "result": "PASS"
+    },
+    {
+      "name": "Storage failure is visibly reported and draft remains available",
+      "result": "PASS"
+    },
+    {
+      "name": "Native app route uses its vault rather than browser localStorage",
+      "result": "PASS"
+    },
+    {
+      "name": "Unreadable native vault is not overwritten and new writing is blocked",
+      "result": "PASS"
+    },
+    {
+      "name": "No external network requests",
+      "result": "PASS"
+    },
+    {
+      "name": "No JavaScript runtime errors",
+      "result": "PASS"
+    }
+  ],
+  "errors": [],
+  "network": []
+}

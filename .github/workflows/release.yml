@@ -1,0 +1,55 @@
+name: Release APK
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    uses: ./.github/workflows/ci.yml
+  publish:
+    needs: test
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check tag and downloads
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          version = json.loads(Path('package.json').read_text())['version']
+          if os.environ['TAG'] != 'v' + version:
+              raise SystemExit('Tag and application version differ')
+          if not Path('docs/releases/' + os.environ['TAG'] + '.md').is_file():
+              raise SystemExit('Missing release notes')
+          PY
+          python3 scripts/verify_release.py
+      - name: Publish original APK and source archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          version="${TAG#v}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo 'Release already exists; leaving published assets unchanged.'
+            exit 0
+          fi
+          gh release create "$TAG" --verify-tag --title "Emlékőr $version" \
+            --notes-file "docs/releases/$TAG.md" \
+            "Emlekor-$version.apk" "Emlekor-$version-forraskod.zip" SHA256SUMS
