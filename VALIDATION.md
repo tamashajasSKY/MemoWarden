@@ -12,8 +12,18 @@ Java/WebCrypto együttműködéssel, külső kérések és JavaScript-hibák né
 A `test-offline.cjs` első oldalbetöltése `ERR_BLOCKED_BY_ADMINISTRATOR` hibával leállt,
 mert a telepített Chromium szabályzata tiltja a `file://` megnyitását. Az offline csoport
 8 ellenőrzése nem fejeződött be, a futtató pedig ezután nem indította el a növekedési
-csoport 41 ellenőrzését. A szabályzatot nem módosítottuk. A teljes csomaghoz külön
-GitHub Actions munkafolyamat készült; annak eredménye az Actions lapon ellenőrizhető.
+csoport 41 ellenőrzését. A szabályzatot nem módosítottuk.
+
+A teljes tesztcsomagot ezután a GitHub Actions futtatta: a
+[Tests #1](https://github.com/tamashajasSKY/MemoWarden/actions/runs/42044809900)
+és a [Release APK #1](https://github.com/tamashajasSKY/MemoWarden/actions/runs/42044865835)
+is sikeresen befejeződött az `5c0afd8` commiton. A kiadási munkafolyamat a három
+tesztcsoportot és a kiadási fájlok ellenőrzését is lefuttatta, majd létrehozta a
+[v1.1.0 kiadást](https://github.com/tamashajasSKY/MemoWarden/releases/tag/v1.1.0).
+
+A dokumentációs letöltőoldal HTTP-n, 390 és 1280 pixel szélességen megjelenik,
+vízszintes túlcsordulás és JavaScript-hiba nélkül. Az eredeti közvetlen repólinkről
+letöltött APK bájtra egyezik a feltöltött fájllal.
 
 ## Az eredeti forráscsomaghoz mellékelt vizsgálati jelentés
 

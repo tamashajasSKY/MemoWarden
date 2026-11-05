@@ -1,6 +1,6 @@
 # GitHub-kiadás és letöltőoldal
 
-A README és a `docs/index.html` közvetlenül a repóban tárolt, eredeti APK-ra mutat. A letöltéshez nem kell újrafordítani az alkalmazást. A forráscsomagot és az APK-t változatlanul őrizzük; ellenőrzésük:
+A README és a `docs/index.html` a [v1.1.0 GitHub Release](https://github.com/tamashajasSKY/MemoWarden/releases/tag/v1.1.0) eredeti APK-mellékletére mutat. A letöltéshez nem kell újrafordítani az alkalmazást. A forráscsomagot és az APK-t a repóban is változatlanul őrizzük; ellenőrzésük:
 
 ```bash
 sha256sum -c SHA256SUMS

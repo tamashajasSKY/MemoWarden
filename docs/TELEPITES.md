@@ -5,7 +5,7 @@ Az Emlékőr 1.1.0 Android 8.0-tól használható. Csomagnév: `hu.emlekor.naplo
 ## Első telepítés
 
 1. Nyisd meg a [hivatalos repót](https://github.com/tamashajasSKY/MemoWarden) a telefonodon.
-2. Kattints az [APK letöltése](https://github.com/tamashajasSKY/MemoWarden/raw/refs/heads/main/Emlekor-1.1.0.apk) linkre.
+2. Kattints az [APK letöltése](https://github.com/tamashajasSKY/MemoWarden/releases/download/v1.1.0/Emlekor-1.1.0.apk) linkre.
 3. A Letöltések közül nyisd meg az `Emlekor-1.1.0.apk` fájlt.
 4. Ha a telefon kéri, a használt böngésző vagy fájlkezelő beállításában engedélyezd az ismeretlen alkalmazások telepítését. A menüpont neve gyártónként eltérhet.
 5. Telepítsd az alkalmazást, majd indítsd el. A telepítési engedélyt utána visszavonhatod.

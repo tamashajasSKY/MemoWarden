@@ -2,11 +2,11 @@
 
 ## Letöltés és telepítés
 
-### [⬇ Emlékőr 1.1.0 APK letöltése](https://github.com/tamashajasSKY/MemoWarden/raw/refs/heads/main/Emlekor-1.1.0.apk)
+### [⬇ Emlékőr 1.1.0 APK letöltése](https://github.com/tamashajasSKY/MemoWarden/releases/download/v1.1.0/Emlekor-1.1.0.apk)
 
 **Android 8.0 vagy újabb · magyar nyelv · offline használat**
 
-[Forráscsomag](https://github.com/tamashajasSKY/MemoWarden/raw/refs/heads/main/Emlekor-1.1.0-forraskod.zip) · [GitHub-kiadások](https://github.com/tamashajasSKY/MemoWarden/releases) · [Telepítési útmutató](docs/TELEPITES.md) · [Adatkezelés](docs/ADATKEZELES.md)
+[Forráscsomag](https://github.com/tamashajasSKY/MemoWarden/releases/download/v1.1.0/Emlekor-1.1.0-forraskod.zip) · [GitHub-kiadások](https://github.com/tamashajasSKY/MemoWarden/releases) · [Telepítési útmutató](docs/TELEPITES.md) · [Adatkezelés](docs/ADATKEZELES.md)
 
 1. Töltsd le az APK-t a telefonodra, és nyisd meg a letöltött fájlt.
 2. Ha Android kéri, engedélyezd a használt böngészőnek vagy fájlkezelőnek az alkalmazástelepítést.
